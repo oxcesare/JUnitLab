@@ -44,17 +44,17 @@ public class Triangulo {
 			  Cadena="Equilatero";
 		}
 				
-		if (a == b || b == c || a == c )
+		else if (a == b || b == c || a == c )
 		{
 		   Cadena="Isosceles";
 		}
 		
-		if (a != b && b != c && a != c)
+		else if (a != b && b != c && a != c)
 		{
 		   Cadena="Escaleno";
 		}
 		
-		if (a != b || b != c || a != c)
+		else
 		{
 		   Cadena="No es un Triangulo";
 		}
